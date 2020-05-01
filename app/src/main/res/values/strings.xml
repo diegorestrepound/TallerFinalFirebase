@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TallerFinal-Firebase</string>
+    <string name="titulo">Datos personales</string>
+    <string name="codmatricula">Codigo de matrícula</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="titulo2">Ingresa tus notas</string>
+    <string name="nota1">N-1</string>
+    <string name="nota2">N-2</string>
+    <string name="nota3">N-3</string>
+    <string name="resultado">0</string>
+    <string name="guardar">Calcular y guardar</string>
+    <string name="salir">Salir</string>
+</resources>

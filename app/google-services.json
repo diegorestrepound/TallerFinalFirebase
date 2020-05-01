@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461467048597",
+    "firebase_url": "https://promedionotas-9dbbf.firebaseio.com",
+    "project_id": "promedionotas-9dbbf",
+    "storage_bucket": "promedionotas-9dbbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461467048597:android:d8aba177501bf8016c199c",
+        "android_client_info": {
+          "package_name": "com.example.tallerfinal_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461467048597-iejbo89uipn62hb3577j2cuj3nfafe53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tallerfinal_firebase",
+            "certificate_hash": "aa33cf5a3de770f60dcdf2429966f073aef2009c"
+          }
+        },
+        {
+          "client_id": "461467048597-8m89b27kpbdvdh35ccotlprf2cmfaa8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3ZLMN8M-eWvIuHnxs6b-HsDaXb9C25ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461467048597-8m89b27kpbdvdh35ccotlprf2cmfaa8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

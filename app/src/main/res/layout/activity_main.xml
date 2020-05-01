@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txttitulo1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/titulo"
+        android:textColor="#4B7BE1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="#81730404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcodmatricula" />
+
+    <EditText
+        android:id="@+id/txtcodmatricula"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/codmatricula"
+        android:inputType="number|numberDecimal"
+        android:textColor="#020202"
+        android:textColorHint="#8A930404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo1" />
+
+    <EditText
+        android:id="@+id/txtnota3"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="78dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/nota3"
+        android:inputType="numberDecimal"
+        android:textColorHint="#7B7C0505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/txtnota2"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo2" />
+
+    <EditText
+        android:id="@+id/txtnota1"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/nota1"
+        android:inputType="numberDecimal"
+        android:textColorHint="#7B7C0505"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo2" />
+
+    <EditText
+        android:id="@+id/txtnota2"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/nota2"
+        android:inputType="numberDecimal"
+        android:textColorHint="#7B7C0505"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota3"
+        app:layout_constraintStart_toEndOf="@+id/txtnota1"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo2" />
+
+    <TextView
+        android:id="@+id/txttitulo2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="@string/titulo2"
+        android:textColor="#4B7BE1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+    <Button
+        android:id="@+id/btnguargar"
+        style="@android:style/Widget.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/guardar"
+        android:textColor="#041F59"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota2" />
+
+    <Button
+        android:id="@+id/btnsalir"
+        style="@android:style/Widget.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/salir"
+        android:textColor="#041F59"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnguargar" />
+
+    <TextView
+        android:id="@+id/txtresultado"
+        android:layout_width="33dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="38dp"
+        android:gravity="center"
+        android:text="@string/resultado"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toEndOf="@+id/btnguargar"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
